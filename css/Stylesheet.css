@@ -22,7 +22,7 @@
 }
 
 .parallax {
-    background-image: url("http://www.pzchio.rzeszow.pl/img/seo.pzco/baner_02.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/01/08/43/hymnal-468126_960_720.jpg");
 
     min-height: 300px;
     height: 100%;
@@ -41,6 +41,13 @@
     font-size: 3.5em;
     font-family: 'Play', sans-serif;
 }
+
+
+.zajawka {
+    width: 100%;
+    /*background-image: url("");*/
+}
+
 
 
 @media screen and (max-width: 768px) {
