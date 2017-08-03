@@ -57,6 +57,15 @@
     margin-top: 2em;
     font-size: small;
 }
+.person-link {
+text-decoration: none;
+    color: black;
+}
+
+.person-link:hover {
+    text-decoration: none;
+    color: black;
+}
 
 
 @media screen and (max-width: 768px) {
