@@ -54,6 +54,7 @@
     text-align: center;
 }
 .footer-tag {
+    font-family: 'Play', sans-serif;
     margin-top: 2em;
     font-size: small;
 }
@@ -63,6 +64,12 @@ text-decoration: none;
 }
 
 .person-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.person-link:focus {
+
     text-decoration: none;
     color: black;
 }
