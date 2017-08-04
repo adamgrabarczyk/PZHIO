@@ -4,6 +4,19 @@
     padding: 9px 0;
 }
 
+.navbar-default  {
+
+
+
+
+    background-color:  rgba(255, 255, 255, 0.5);
+    background:  rgba(255, 255, 255, 0.5);
+    color:  rgba(255, 255, 255, 0.5);
+border-color:  rgba(255, 255, 255, 0.5);
+
+
+
+}
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
@@ -15,10 +28,13 @@
 
 .navbar-default .navbar-nav>li>a {
    font-family: 'Play', sans-serif;
+    color: black;
 }
+
 
 .dropdown-menu>li>a {
     font-family: 'Play', sans-serif;
+    color: black;
 }
 
 .parallax {
@@ -43,10 +59,6 @@
 }
 
 
-.zajawka {
-    width: 100%;
-    /*background-image: url("");*/
-}
 .footer {
 
     background: white;
@@ -74,6 +86,18 @@ text-decoration: none;
     color: black;
 }
 
+.zajawka {
+
+
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+
+
+    height: 500px;
+    font-size:36px;
+
+}
 
 @media screen and (max-width: 768px) {
 
