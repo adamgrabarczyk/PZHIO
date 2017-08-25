@@ -45,18 +45,6 @@
 }
 
 
-.footer {
-
-    background: white;
-    padding: 10px 25px;
-    text-align: center;
-}
-.footer-tag {
-    font-family: 'Play', sans-serif;
-    margin-top: 2em;
-    font-size: small;
-}
-
 @media screen and (max-width: 768px) {
 
     .dropdown:hover .dropdown-menu {

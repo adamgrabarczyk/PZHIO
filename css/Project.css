@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 
-body{
-    background-color: cornflowerblue;
-}
 
+body{
+    background-color: grey;
+}
 
 .sidebar-nav {
     padding: 9px 0;
@@ -40,4 +40,11 @@ body{
 .dropdown-menu>li>a {
     font-family: 'Play', sans-serif;
     color: black;
+}
+
+.logo {
+    position: absolute;
+    top: 0.6%;
+    max-width: 50px;
+    border-radius: 50%;
 }

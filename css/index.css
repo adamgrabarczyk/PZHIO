@@ -37,18 +37,32 @@ border-color:  rgba(104,66,30, 0.5);
     color: black;
 }
 
-.parallax {
-    background-image: url("https://cdn.pixabay.com/photo/2014/10/01/08/43/hymnal-468126_960_720.jpg");
-
-    min-height: 300px;
-    height: 100%;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.logo {
+    position: absolute;
+    top: 0.6%;
+    max-width: 50px;
+    border-radius: 50%;
 }
+
+
+
+/*.parallax {*/
+    /*background-image: url("https://cdn.pixabay.com/photo/2014/10/01/08/43/hymnal-468126_960_720.jpg");*/
+
+    /*min-height: 300px;*/
+    /*height: 100%;*/
+
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+
+/*}*/
+
+
+
+
+
 .title{
     text-align: right;
 
