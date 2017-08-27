@@ -101,6 +101,7 @@ body {
 .outer {
     overflow-y: hidden;
     padding-top: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -108,13 +109,13 @@ body {
 #record,
 .outer {
 
-    height: 500px;
+    height: 400px;
 }
 
 .layer,
 #record {
     display: block;
-    width: 500px;
+    width: 400px;
     position: absolute;
 }
 
@@ -136,7 +137,7 @@ body {
     -webkit-transform-origin: 0;
     -moz-transform: rotate(45deg) translateX(-50%);
     -moz-transform-origin: 0;
-    transform: rotate(45deg) translateX(-50%);
+    transform: rotate(4deg) translateX(-50%);
     transform-origin: 0;
     position: absolute;
     overflow: hidden;
