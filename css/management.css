@@ -48,7 +48,12 @@
 
 
 
-
+.baner {
+    margin-top: 51px;
+    margin-bottom: 0;
+    /*padding-bottom: 0;*/
+    /*background-image: url("images/zajawka-pzhio.png");*/
+}
 
 .img {
 
@@ -56,10 +61,29 @@
     line-height: 300px;
 }
 
+.order {
 
+    max-width: 30%;
+}
+
+
+.oop-img {
+    max-width: 100%;
+}
+
+.oop
+{
+    cursor: pointer;
+    max-width: 8.4%;
+    padding: 10px;
+
+}
 
 .managment {
-
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #CCCCCC;
+/*background-image: url("");*/
     text-align: center;
 }
 
@@ -68,6 +92,10 @@
     padding: 20px;
 }
 
+h2 {
+
+    font-family: 'Play', sans-serif;
+}
 
 .card-text {
 
@@ -94,6 +122,7 @@
 .artistCommittee {
 padding: 30px;
     text-align: center;
+    background-color: #CCCCCC;
 }
 
 
@@ -111,6 +140,7 @@ padding: 30px;
     background: white;
     padding: 10px 25px;
     text-align: center;
+    background-color: #CCCCCC;
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
