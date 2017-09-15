@@ -5,18 +5,6 @@
 }
 
 
-.img {
-
-    width: 380px;
-    line-height: 300px;
-}
-
-
-
-.managment {
-
-    text-align: center;
-}
 
 .navbar-default  {
 
@@ -57,6 +45,43 @@
     max-width: 50px;
     border-radius: 50%;
 }
+
+
+
+
+
+.img {
+
+    width: 380px;
+    line-height: 300px;
+}
+
+
+
+.managment {
+
+    text-align: center;
+}
+
+.card {
+
+    padding: 20px;
+}
+
+
+.card-text {
+
+    padding: 20px;
+    font-size: 1.2em;
+
+
+}
+
+
+
+
+
+
 
 
 .footer {
