@@ -53,6 +53,7 @@
     margin-bottom: 0;
     /*padding-bottom: 0;*/
     /*background-image: url("images/zajawka-pzhio.png");*/
+    background: url(http://slowopolskie.org/images/stories/000_1214/2012_warmia.jpg);
 }
 
 .img {
@@ -82,7 +83,7 @@
 .managment {
     padding-top: 0;
     margin-top: 0;
-    background-color: #CCCCCC;
+    /*background-color: #CCCCCC;*/
 /*background-image: url("");*/
     text-align: center;
 }
@@ -116,13 +117,15 @@ h2 {
 
     text-align: center;
     padding: 30px;
+
+    background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);
 }
 
 
 .artistCommittee {
 padding: 30px;
     text-align: center;
-    background-color: #CCCCCC;
+    /*background-color: #CCCCCC;*/
 }
 
 
@@ -130,6 +133,7 @@ padding: 30px;
 
     padding: 30px;
     text-align: center;
+    background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);
 }
 
 

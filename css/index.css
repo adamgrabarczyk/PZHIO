@@ -92,6 +92,7 @@ border-color:  rgba(104,66,30, 0.5);
     background: white;
     padding: 10px 25px;
     text-align: center;
+    background-color: #CCCCCC;
 }
 .footer-tag {
     font-family: 'Play', sans-serif;

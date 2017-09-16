@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 
+
+body {
+
+    background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);
+}
+
+
+
 .sidebar-nav {
     padding: 9px 0;
 }
@@ -77,21 +85,22 @@ margin-left: 20%;
 }
 
 
-
-
-
-
 .footer {
 
     background: white;
     padding: 10px 25px;
     text-align: center;
+    background-color: #CCCCCC;
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
     margin-top: 2em;
     font-size: small;
 }
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
