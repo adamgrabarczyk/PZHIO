@@ -48,3 +48,31 @@ body{
     max-width: 50px;
     border-radius: 50%;
 }
+
+
+.oop-img {
+    max-width: 100%;
+}
+
+.oop
+{
+    cursor: pointer;
+    max-width: 8.4%;
+    padding: 10px;
+
+}
+
+
+
+.footer {
+
+    background: white;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+.footer-tag {
+    font-family: 'Play', sans-serif;
+    margin-top: 2em;
+    font-size: small;
+}
