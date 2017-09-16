@@ -18,6 +18,11 @@
 
 }
 
+body {
+    background-color: aliceblue;
+}
+
+
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
 }
@@ -44,7 +49,14 @@
     border-radius: 50%;
 }
 
+.feliks {
+margin-top: 0
+}
 
+.feliks-img {
+    width: 100%;
+
+}
 
 .oop-img {
     max-width: 100%;
