@@ -1,0 +1,211 @@
+.book {
+    overflow: hidden;
+    border: 10px;
+}
+@media only screen and (min-width: 40em) {
+    .book {
+        margin-top: 5em;
+        -webkit-perspective: 250vw;
+        perspective: 250vw;
+        overflow: visible;
+    }
+}
+.book .pages-responsive {
+    overflow-x: auto;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    position: relative;
+}
+.book .pages-responsive:after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    background: transparent;
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive {
+        overflow: visible;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .book .pages-responsive:after {
+        display: none;
+    }
+}
+.book .pages-responsive .pages {
+    position: relative;
+    margin: 0 auto;
+    width: 1000%;
+    padding-bottom: 40%;
+    height: 0;
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages {
+        -webkit-transform: rotateX(15deg);
+        transform: rotateX(15deg);
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        width: 80%;
+    }
+}
+.book .pages-responsive .pages .page {
+    position: relative;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    width: 10%;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        cursor: pointer;
+        margin: 0;
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+        -webkit-transition: background .5s;
+        transition: background .5s;
+        z-index: 2;
+    }
+}
+.book .pages-responsive .pages .page img {
+    width: 100%;
+    position: relative;
+}
+.book .pages-responsive .pages .page .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.book .pages-responsive .pages .page .caption p {
+    color: white;
+    text-shadow: 0 0 50px black;
+    font-weight: bold;
+}
+.book .pages-responsive .pages .page:nth-child(even) {
+    pointer-events: none;
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(even) {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        left: 0;
+        right: 50%;
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(even):after {
+        background: -webkit-linear-gradient(left, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
+        background: linear-gradient(to right, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: ' ';
+        display: block;
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(even).page--flipped {
+        pointer-events: all;
+        -webkit-transform: rotateY(5deg);
+        transform: rotateY(5deg);
+    }
+}
+.book .pages-responsive .pages .page:nth-child(even).page--flipped:before {
+    background: rgba(0, 0, 0, 0.03);
+}
+.book .pages-responsive .pages .page:nth-child(even):before {
+    background: rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(odd) {
+        pointer-events: all;
+        -webkit-transform: rotateY(-5deg);
+        transform: rotateY(-5deg);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        left: 50%;
+        right: 0;
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(odd):after {
+        background: -webkit-linear-gradient(right, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
+        background: linear-gradient(to left, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: ' ';
+        display: block;
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page:nth-child(odd).page--flipped {
+        pointer-events: none;
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+}
+.book .pages-responsive .pages .page:nth-child(odd).page--flipped:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page--is-hoverable:nth-child(even):hover {
+        -webkit-transform: rotateY(10deg);
+        transform: rotateY(10deg);
+    }
+}
+@media only screen and (min-width: 40em) {
+    .book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover {
+        -webkit-transform: rotateY(-10deg);
+        transform: rotateY(-10deg);
+    }
+}
+.book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover:before {
+    background: rgba(0, 0, 0, 0.03);
+}
+.book .pager ol {
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+.book .pager ol li {
+    list-style: none;
+    display: table-cell;
+}
