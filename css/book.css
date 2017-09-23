@@ -1,4 +1,4 @@
-.book {
+    .book {
     overflow: hidden;
     border: 10px;
 }
@@ -10,6 +10,7 @@
         overflow: visible;
     }
 }
+    
 .book .pages-responsive {
     overflow-x: auto;
     -webkit-transform: translateZ(0);
