@@ -10,8 +10,9 @@
         overflow: visible;
     }
 }
-
     
+
+
 .book .pages-responsive {
     overflow-x: auto;
     -webkit-transform: translateZ(0);
