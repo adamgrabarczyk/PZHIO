@@ -1,23 +1,17 @@
 
 window.onload = function () {
 
-    var dropDownButton = document.getElementsByClassName("dropdown");
-
-    dropDownButton.onclick = function (e) {
-
-        e.preventDefault();
-
-    }
-
-
-    // var galleryButton = document.getElementById("gallery");
+    // var dropDownButton = document.getElementsByClassName("dropdown");
     //
+    // dropDownButton.onclick = function (e) {
     //
-    // galleryButton.onclick = function () {
-    //
-    //
+    //     e.preventDefault();
     //
     // }
+
+
+
+
 
 
 }
