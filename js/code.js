@@ -10,21 +10,14 @@ window.onload = function () {
     }
 
 
+    // var galleryButton = document.getElementById("gallery");
+    //
+    //
+    // galleryButton.onclick = function () {
+    //
+    //
+    //
+    // }
 
-//     var galleryButton = document.getElementById("gallery");
-//
-// // var x = location.href="Project's"
-//
-//     galleryButton.onclick = function () {
-//
-//
-//
-//     }
-
-
-    $("#gallery").change(function()
-    {
-        document.location.href = $(this).val();
-    });
 
 }

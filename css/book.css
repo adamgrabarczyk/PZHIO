@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+
     .book {
     overflow: hidden;
     border: 10px;
@@ -111,10 +115,18 @@
     transform: translate(-50%, -50%);
 }
 .book .pages-responsive .pages .page .caption p {
-    color: white;
+    padding-top: 20px;
+    color: darkgoldenrod;
     text-shadow: 0 0 50px black;
     font-weight: bold;
+    font-family: Kalam;
+    font-size: 1.3em;
 }
+
+    .book .pages-responsive .pages .page .caption h2 {
+font-family: Lobster;
+        color: rgb(195,139,73);
+    }
 .book .pages-responsive .pages .page:nth-child(even) {
     pointer-events: none;
 }

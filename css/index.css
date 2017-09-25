@@ -5,7 +5,7 @@
 body {
     
     background: url("https://image.freepik.com/free-photo/dark-natural-retro-decorative-backdrop_1253-335.jpg");
-    
+
 }
 
 
@@ -101,10 +101,13 @@ border-color:  rgba(104,66,30, 0.5);
 
 .footer {
 
-    background: white;
+    /*background: white;*/
     padding: 10px 25px;
     text-align: center;
-    background-color: #CCCCCC;
+/*background: ;*/
+  /*background-color: #CCCCCC;*/
+    opacity: 0.8;
+    background-color: rgb(157,122,90);
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
