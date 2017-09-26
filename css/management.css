@@ -1,43 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 
-.sidebar-nav {
-    padding: 9px 0;
-}
-
-
-
-.navbar-default  {
-
-
-
-
-    background-color:  rgba(104,66,30, 0.5);
-    background:  rgba(104,66,30, 0.5);
-    color:  rgba(104,66,30, 0.5);
-    border-color:  rgba(104,66,30, 0.5);
-
-
-
-}
-
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navbar-default .navbar-nav>li>a {
-    font-family: 'Play', sans-serif;
-    color: black;
-}
-
-
-.dropdown-menu>li>a {
-    font-family: 'Play', sans-serif;
-    color: black;
-}
 
 .logo {
     position: absolute;
@@ -139,18 +101,6 @@ padding: 30px;
 
 
 
-.footer {
-
-    background: white;
-    padding: 10px 25px;
-    text-align: center;
-    background-color: #CCCCCC;
-}
-.footer-tag {
-    font-family: 'Play', sans-serif;
-    margin-top: 2em;
-    font-size: small;
-}
 
 @media screen and (max-width: 768px) {
 

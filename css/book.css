@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 
 
-    .book {
+   #content .book {
     overflow: hidden;
     border: 10px;
 }
 @media only screen and (min-width: 40em) {
-    .book {
+   #content .book {
         margin-top: 5em;
         -webkit-perspective: 250vw;
         perspective: 250vw;
@@ -17,13 +17,13 @@
 
 
 
-.book .pages-responsive {
+#content .book .pages-responsive {
     overflow-x: auto;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     position: relative;
 }
-.book .pages-responsive:after {
+#content .book .pages-responsive:after {
     display: block;
     position: absolute;
     content: '';
@@ -35,16 +35,16 @@
     background: transparent;
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive {
+   #content .book .pages-responsive {
         overflow: visible;
         -webkit-transform: none;
         transform: none;
     }
-    .book .pages-responsive:after {
+   #content .book .pages-responsive:after {
         display: none;
     }
 }
-.book .pages-responsive .pages {
+#content .book .pages-responsive .pages {
     position: relative;
     margin: 0 auto;
     width: 1000%;
@@ -52,7 +52,7 @@
     height: 0;
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages {
+   #content .book .pages-responsive .pages {
         -webkit-transform: rotateX(15deg);
         transform: rotateX(15deg);
         -webkit-transform-style: preserve-3d;
@@ -60,7 +60,7 @@
         width: 80%;
     }
 }
-.book .pages-responsive .pages .page {
+#content .book .pages-responsive .pages .page {
     position: relative;
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
@@ -72,7 +72,7 @@
     backface-visibility: hidden;
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page {
+   #content .book .pages-responsive .pages .page {
         width: 100%;
         position: absolute;
         top: 0;
@@ -90,7 +90,7 @@
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:before {
+   #content .book .pages-responsive .pages .page:before {
         content: '';
         position: absolute;
         top: 0;
@@ -103,18 +103,18 @@
         z-index: 2;
     }
 }
-.book .pages-responsive .pages .page img {
+#content .book .pages-responsive .pages .page img {
     width: 100%;
     position: relative;
 }
-.book .pages-responsive .pages .page .caption {
+#content .book .pages-responsive .pages .page .caption {
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.book .pages-responsive .pages .page .caption p {
+#content .book .pages-responsive .pages .page .caption p {
     padding-top: 20px;
     color: darkgoldenrod;
     text-shadow: 0 0 50px black;
@@ -123,15 +123,15 @@
     font-size: 1.3em;
 }
 
-    .book .pages-responsive .pages .page .caption h2 {
+   #content .book .pages-responsive .pages .page .caption h2 {
 font-family: Lobster;
         color: rgb(195,139,73);
     }
-.book .pages-responsive .pages .page:nth-child(even) {
+#content .book .pages-responsive .pages .page:nth-child(even) {
     pointer-events: none;
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(even) {
+   #content .book .pages-responsive .pages .page:nth-child(even) {
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
         -webkit-transform-origin: 100% 0;
@@ -141,7 +141,7 @@ font-family: Lobster;
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(even):after {
+   #content .book .pages-responsive .pages .page:nth-child(even):after {
         background: -webkit-linear-gradient(left, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
         background: linear-gradient(to right, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
         position: absolute;
@@ -154,20 +154,20 @@ font-family: Lobster;
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(even).page--flipped {
+   #content .book .pages-responsive .pages .page:nth-child(even).page--flipped {
         pointer-events: all;
         -webkit-transform: rotateY(5deg);
         transform: rotateY(5deg);
     }
 }
-.book .pages-responsive .pages .page:nth-child(even).page--flipped:before {
+#content .book .pages-responsive .pages .page:nth-child(even).page--flipped:before {
     background: rgba(0, 0, 0, 0.03);
 }
-.book .pages-responsive .pages .page:nth-child(even):before {
+#content .book .pages-responsive .pages .page:nth-child(even):before {
     background: rgba(0, 0, 0, 0.2);
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(odd) {
+   #content .book .pages-responsive .pages .page:nth-child(odd) {
         pointer-events: all;
         -webkit-transform: rotateY(-5deg);
         transform: rotateY(-5deg);
@@ -178,7 +178,7 @@ font-family: Lobster;
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(odd):after {
+   #content .book .pages-responsive .pages .page:nth-child(odd):after {
         background: -webkit-linear-gradient(right, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
         background: linear-gradient(to left, transparent 70%, rgba(0, 0, 0, 0.6) 97%);
         position: absolute;
@@ -191,36 +191,36 @@ font-family: Lobster;
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page:nth-child(odd).page--flipped {
+   #content .book .pages-responsive .pages .page:nth-child(odd).page--flipped {
         pointer-events: none;
         -webkit-transform: rotateY(-180deg);
         transform: rotateY(-180deg);
     }
 }
-.book .pages-responsive .pages .page:nth-child(odd).page--flipped:before {
+#content .book .pages-responsive .pages .page:nth-child(odd).page--flipped:before {
     background: rgba(0, 0, 0, 0.2);
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page--is-hoverable:nth-child(even):hover {
+   #content .book .pages-responsive .pages .page--is-hoverable:nth-child(even):hover {
         -webkit-transform: rotateY(10deg);
         transform: rotateY(10deg);
     }
 }
 @media only screen and (min-width: 40em) {
-    .book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover {
+   #content .book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover {
         -webkit-transform: rotateY(-10deg);
         transform: rotateY(-10deg);
     }
 }
-.book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover:before {
+#content .book .pages-responsive .pages .page--is-hoverable:nth-child(odd):hover:before {
     background: rgba(0, 0, 0, 0.03);
 }
-.book .pager ol {
+#content .book .pager ol {
     display: table;
     width: 100%;
     padding: 0;
 }
-.book .pager ol li {
+#content .book .pager ol li {
     list-style: none;
     display: table-cell;
 }
