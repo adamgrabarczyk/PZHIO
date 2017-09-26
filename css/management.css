@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
 
 
-.logo {
-    position: absolute;
-    top: 0.6%;
-    max-width: 50px;
-    border-radius: 50%;
-}
-
-
-
-.baner {
-    /*margin-top: 51px;*/
-    /*margin-bottom: 0;*/
-    /*padding-bottom: 0;*/
-    /*background-image: url("images/zajawka-pzhio.png");*/
-    /*background: url("");*/
-}
 
 .img {
 
@@ -29,18 +13,6 @@
     max-width: 30%;
 }
 
-
-.oop-img {
-    max-width: 100%;
-}
-
-.oop
-{
-    cursor: pointer;
-    max-width: 8.4%;
-    padding: 10px;
-
-}
 
 .managment {
     padding-top: 0;
@@ -102,13 +74,3 @@ padding: 30px;
 
 
 
-@media screen and (max-width: 768px) {
-
-    .dropdown:hover .dropdown-menu {
-        display: none;
-    }
-}
-
-.dropdown-menu li:hover .sub-menu {
-    visibility: hidden;
-}

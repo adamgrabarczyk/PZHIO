@@ -4,23 +4,6 @@
 
 
 
-#zajawka{
-    margin-top: 70px;
-/*background-color: #FECA91;*/
-/*width: 300px;*/
-text-align: center;
-
-}
-
-.img-warmio {
-    width: 50%;
-height: 250px;
-    border-radius: 2%;
-margin-left: 20%;
-}
-
-
-
 
 .maps {
 padding: 30px;
@@ -38,50 +21,4 @@ padding: 30px;
     background-color: #AA9785;
     opacity: 0.8;
 
-}
-
-
-
-
-
-
-.oop-img {
-    max-width: 100%;
-}
-
-.oop
-{
-    cursor: pointer;
-    max-width: 8.4%;
-    padding: 10px;
-
-}
-
-
-.footer {
-
-    background: white;
-    padding: 10px 25px;
-    text-align: center;
-    background-color: #CCCCCC;
-}
-.footer-tag {
-    font-family: 'Play', sans-serif;
-    margin-top: 2em;
-    font-size: small;
-}
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-    .dropdown:hover .dropdown-menu {
-        display: none;
-    }
-}
-
-.dropdown-menu li:hover .sub-menu {
-    visibility: hidden;
 }
