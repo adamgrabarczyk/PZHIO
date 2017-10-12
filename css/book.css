@@ -5,10 +5,14 @@
    #content .book {
     overflow: hidden;
     border: 10px;
+/*background-color: antiquewhite;*/
+       background-image: url("../images/background_4.png");
 }
 @media only screen and (min-width: 40em) {
    #content .book {
-        margin-top: 5em;
+        margin-top: 0em;
+       padding-top: 50px;
+       padding-bottom: 50px;
         -webkit-perspective: 250vw;
         perspective: 250vw;
         overflow: visible;
@@ -116,7 +120,7 @@
 }
 #content .book .pages-responsive .pages .page .caption p {
     padding-top: 20px;
-    color: darkgoldenrod;
+    color: black;
     text-shadow: 0 0 50px black;
     font-weight: bold;
     font-family: Kalam;
