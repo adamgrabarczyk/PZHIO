@@ -1,8 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 
+.Projects {
+
+    background-color: white;
+
+}
 
 
+.project-card {
+    text-align: center;
+    padding-top: 20px;
+
+}
 
 
+.show-more {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #c33764;
+    border-color: transparent;
+    min-width: 130px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: all .3s;
+    line-height: 1;
+    font-size: 18px;
+    padding: 19px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.show-more:focus {
+    background-color: rgb(20,25,42);
+}
+
+.show-more:hover {
+
+background-color: rgb(20,25,42);
+    transition: 0.5s;
+}
