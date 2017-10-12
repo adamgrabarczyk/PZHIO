@@ -8,6 +8,16 @@
 /*background-color: antiquewhite;*/
        background-image: url("../images/background_4.png");
 }
+
+
+.prev, .next {
+    color: #801F2B;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
 @media only screen and (min-width: 40em) {
    #content .book {
         margin-top: 0em;

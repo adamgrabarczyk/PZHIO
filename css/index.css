@@ -4,8 +4,8 @@
 
 body {
     
-    background-image: url("../images/Nowe Miasto Lubawskie.JPG");
-    background-size: cover;
+    background-image: url("http://i.imgur.com/UYB1d.png");
+    background-size: 100%;
 
 
     color: red;
@@ -127,8 +127,8 @@ border-color:  rgba(104,66,30, 0.5);
     text-align: center;
 /*background: ;*/
   /*background-color: #CCCCCC;*/
-    opacity: 0.8;
-    background-color: rgb(157,122,90);
+    /*opacity: 0.4;*/
+    background-color: #7C4742;
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
