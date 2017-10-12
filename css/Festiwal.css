@@ -3,6 +3,11 @@
 
 
 
+#content .feliks {
+
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 .feliks {
 margin-top: 0
@@ -11,4 +16,15 @@ margin-top: 0
 .feliks-img {
     width: 100%;
 
+}
+
+.linki {
+    text-align: center;
+    color: black;
+    font-family: 'Play', sans-serif;
+}
+
+.img-festiwal {
+
+    max-width: 100px;
 }
