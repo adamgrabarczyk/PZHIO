@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 
-.img {
 
-    width: 380px;
+.img-prezes {
+
+    width: 280px;
     line-height: 300px;
+    border-radius: 5%;
 }
 
 .order {
@@ -13,23 +16,63 @@
     max-width: 30%;
 }
 
+.card-title {
+
+    font-family: 'Oswald', sans-serif;
+}
+
+.basia {
+    background-color: #E2E0E1;
+}
+
+.span1, .span6 {
+    padding-right: 40px;
+}
+
+.basia address p {
+    text-align: start;
+    margin-left: 40%;
+    color: black;
+    text-decoration: none;
+}
+
+.basia address h4 {
+    padding: 10px;
+}
+
+.basia address i {
+
+    color: black;
+}
+
+.basia address i:hover {
+
+    color: #801F2B;
+    transition: 0.4s;
+}
 
 .managment {
     padding-top: 0;
     margin-top: 0;
-    /*background-color: #CCCCCC;*/
+    background-color:#FFFFff;
 /*background-image: url("");*/
     text-align: center;
+
 }
 
 .card {
 
-    padding: 20px;
+    padding: 40px;
+}
+
+.card i:hover {
+
+    color: #801F2B;
 }
 
 h2 {
 
-    font-family: 'Play', sans-serif;
+    font-family: 'Oswald    ', sans-serif;
 }
 
 .card-text {
