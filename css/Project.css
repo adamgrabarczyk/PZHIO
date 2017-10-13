@@ -15,6 +15,11 @@
     border-radius: 0px;
 }
 
+.project-thumb div h3 {
+    color: #801F2B;
+    height: 100px;
+}
+
 .project-card {
     text-align: center;
     padding-top: 20px;
@@ -54,4 +59,52 @@
 
 background-color: rgb(20,25,42);
     transition: 0.5s;
+}
+
+.close-btn {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #c33764;
+    border-color: transparent;
+    min-width: 100px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: all .3s;
+    line-height: 1;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.close-btn:focus {
+    background-color: rgb(20,25,42);
+}
+
+.close-btn:hover {
+color: #FFFFff;
+    background-color: rgb(20,25,42);
+    transition: 0.5s;
+}
+
+.modal-body  {
+    font-size: 1.2em;
+}
+
+.modal-content {
+ border-radius: 0px;
+    color: #7C4742;
+    font-family: 'Oswald', sans-serif;
+}
+
+.modal-footer {
+    border-top: 0px;
 }
