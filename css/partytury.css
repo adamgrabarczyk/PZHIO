@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+.party-title {
+
+    text-align: center;
+    background-color: bisque;
+
+
+}
+
+.party-title h1, h3, h4 {
+    padding: 20px;
+}
+
+
+.party-title hr {
+    border-color: #7C4941;;
+   width: 60%;
+}
+
+
+
+.part1 {
+    background-color: white;
+    text-align: center;
+}
+
+.party-thumb {
+
+    border: 0px;
+}
