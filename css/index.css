@@ -4,8 +4,9 @@
 
 body {
     
-    background-image: url("http://i.imgur.com/UYB1d.png");
+    /*background-image: url("http://i.imgur.com/UYB1d.png");*/
     background-size: 100%;
+    background-color: bisque;
 
 }
 
@@ -27,9 +28,9 @@ padding-right: 0px;
 .navbar-default  {
 
 
+height: 55px;
 
-
-    background-color:  #801F2B;
+    background-color:  #7C4941;
     /*background:  rgba(104,66,30, 0.5);*/
     /*color:  rgba(104,66,30, 0.5);*/
 border-color:  rgba(104,66,30, 0.5);
@@ -51,6 +52,14 @@ border-color:  rgba(104,66,30, 0.5);
     color: #FFFFff;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: inset;
+    color: #FFFFff;
+    padding-bottom: 5px;
+    border-color: #FFFFff;
+}
+
+
 
 .dropdown-menu>li>a {
     font-family: 'Play', sans-serif;
@@ -58,6 +67,7 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 .logo {
+    padding-top: 2px;
     position: absolute;
     top: 0.6%;
     max-width: 50px;
@@ -180,7 +190,7 @@ text-decoration: none;
     line-height: 30px;
     /*font-size: 2em;*/
     /*background: #FFFFFF;*/
-    color: #c31401;
+    color: #c33764;
     cursor: pointer;
     border: 0;
     border-radius: 50%;
@@ -190,6 +200,7 @@ text-decoration: none;
 }
 #back-to-top:hover {
     /*background: #e9ebec;*/
+    opacity: 1;
 }
 #back-to-top.show {
     opacity: 1;
