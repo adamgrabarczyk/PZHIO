@@ -50,6 +50,7 @@ border-color:  rgba(104,66,30, 0.5);
 .navbar-default .navbar-nav>li>a {
    font-family: 'Play', sans-serif;
     color: #FFFFff;
+    font-size: 1.2em;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -59,7 +60,12 @@ border-color:  rgba(104,66,30, 0.5);
     border-color: #FFFFff;
 }
 
-
+.navbar-default .navbar-nav>li>a:focus {
+    border-bottom: inset;
+    color: #FFFFff;
+    padding-bottom: 5px;
+    border-color: #FFFFff;
+}
 
 .dropdown-menu>li>a {
     font-family: 'Play', sans-serif;
