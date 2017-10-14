@@ -3,15 +3,90 @@
 
 
 
-
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
 
 .maps {
 padding: 30px;
     text-align: center;
+    background-color: #FFFFff;
 
 
 }
 
+.contact p a {
+    text-decoration: none;
+}
+
+.contact hr {
+    width: 80%;
+}
+
+.contact h2, h4 {
+    padding: 20px;
+}
+
+.contact p {
+    color: black;
+    text-align: start;
+    margin-left: 20%;
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+}
+
+.contact strong {
+    font-weight: bold;
+}
+
+
+.cont1 {
+    padding-right: 60px;
+}
+
+.cont2, .cont3 {
+    padding-right: 55px;
+}
+
+.cont4 {
+    padding-right: 51px;
+}
+
+.cont5 {
+    padding-right: 45px;
+}
+
+.cont6 {
+    padding-right: 41px;
+}
+
+
+.ikea {
+    color: black;
+}
+
+
+.mpaps h2 {
+    padding: 20px;
+}
+
+.google-map {
+    /*padding-top: 20px;*/
+    margin-top: 25px;
+    position: relative;
+    /*padding-bottom: 30%;*/
+    height: 470px;
+    overflow: hidden;
+}
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90% !important;
+    height: 100% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 .list-group-item.active,
