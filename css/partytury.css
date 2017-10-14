@@ -32,3 +32,20 @@
 
     border: 0px;
 }
+
+.party-thumb2 {
+    background-color: bisque;
+    border: 0px;
+}
+
+.party-thumb2 h4 {
+ min-height: 100px;
+}
+
+.party-thumb2 p {
+    color: black;
+}
+
+.part2 {
+    text-align: center;
+}
