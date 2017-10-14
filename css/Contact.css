@@ -19,6 +19,10 @@ padding: 30px;
     text-decoration: none;
 }
 
+.contact p a:hover {
+    color: #801F2B;
+}
+
 .contact hr {
     width: 80%;
 }
