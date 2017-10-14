@@ -4,6 +4,10 @@
 
 
 
+.managment h2 , h3 , h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .img-prezes {
 
     width: 280px;
@@ -65,9 +69,13 @@
     padding: 40px;
 }
 
+.card i {
+    color: #007FFF;
+}
+
 .card i:hover {
 
-    color: #801F2B;
+    color: #FF4237;
 }
 
 h2 {
@@ -89,28 +97,68 @@ h2 {
 }
 
 
+.person-card {
+
+    border: groove;
+    border-radius: 5px;
+    border-color:  rgba(137, 4, 7, 0.5);;
+margin: 1.5%;
+    height: 300px;
+    max-width: 30%;
+}
+
+
+.person-card-special {
+
+    border: groove;
+    border-color:  rgba(137, 4, 7, 0.5);;
+    border-radius: 5px;
+    margin-left: 34.5%;
+    margin-right: 20%;
+    height: 300px;
+    max-width: 30%;
+
+
+}
+
+.revisionCommittee h2 {
+
+    font-family: 'Oswald', sans-serif;
+}
 
 .revisionCommittee {
 
     text-align: center;
     padding: 30px;
-
-    background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);
+background-color: rgb(245,244,244);
+    /*background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);*/
 }
 
 
+
+.artistCommittee h2{
+
+    font-family: 'Oswald', sans-serif;
+}
 .artistCommittee {
 padding: 30px;
     text-align: center;
-    /*background-color: #CCCCCC;*/
+    background-color:
+            rgba(137, 4, 7, 0.5);
+
+
 }
 
+.honorBadge h2{
+    font-family: 'Oswald', sans-serif;
+}
 
 .honorBadge {
 
     padding: 30px;
     text-align: center;
-    background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);
+    /*background: url(http://wallpapercave.com/wp/8oOtk3p.jpg);*/
+background-color: #FFFFff;
 }
 
 
