@@ -7,12 +7,22 @@
 
     text-align: center;
     background-color: bisque;
+    padding-bottom: 100px;
 
 
 }
 
+.party-title h3 {
+    color: #801F2B;
+}
+
+.party-title h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .party-title h1, h3, h4 {
     padding: 20px;
+    color: #801F2B;
 }
 
 
@@ -40,6 +50,13 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.part1 h3, .part3 h3, .part2 h3, .part4 h3, .part5 h3, .part6 h3{
+    /*padding-top: 100px;*/
+    padding-bottom: 100px;
+}
+
+
 .row {
      margin-right: 0px;
      margin-left: 0px;
