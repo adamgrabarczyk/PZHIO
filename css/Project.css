@@ -52,11 +52,12 @@
 }
 
 .show-more:focus {
+    color: white;
     background-color: rgb(20,25,42);
 }
 
 .show-more:hover {
-
+    color: white;
 background-color: rgb(20,25,42);
     transition: 0.5s;
 }

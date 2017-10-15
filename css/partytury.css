@@ -26,6 +26,10 @@
 }
 
 
+.caption a {
+    text-decoration: none;
+}
+
 .party-title hr {
     border-color: #7C4941;;
    width: 60%;
@@ -171,11 +175,12 @@
 }
 
 .show-me:focus {
-    background-color: #c33764;;
+    background-color: #c33764;
+    color: white;
 }
 
 .show-me:hover {
-
+    color: white;
     background-color: #c33764;;
     transition: 0.5s;
 }
