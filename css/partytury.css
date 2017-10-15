@@ -28,12 +28,18 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.part1, .part3 {
+.part1, .part3, .part6 {
+    /*padding-top: 100px;*/
+    /*padding-bottom: 100px;*/
     background-color: white;
     text-align: center;
 }
 
 
+.part1, .part3, .part2, .part4, .part5, .part6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .row {
      margin-right: 0px;
      margin-left: 0px;
@@ -49,6 +55,10 @@
     border: 0px;
     height: 350px;
 
+}
+
+.lefy-mar {
+    margin-left: 40px;
 }
 
 .party-thumb2  h4 {
@@ -84,21 +94,38 @@
 .party-cards {
     margin-left: 200px;
     /*margin-right: -5%;*/
+    /*padding-bottom: 100px;*/
+}
+
+.party-cards2 {
+    background-color: white;
+    margin-left: 200px;
+
+    /*margin-right: -5%;*/
 }
 
 .party-thumb2 h4 {
  min-height: 100px;
 }
 
+.pdg {
+    padding-bottom: 100px;
+}
 
 
+.prev-card {
+    background-color: white;
+}
 
-.part2, .part4 {
+
+.part2, .part4, .part5 {
     text-align: center;
 
 }
 
-
+.next-card {
+    background-color: bisque;
+}
 
 
 .show-me {
