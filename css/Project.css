@@ -9,6 +9,12 @@
 
 }
 
+.thumbnail .pr-img {
+
+    height: 300px;
+    width: 100%;
+}
+
 .project-thumb {
 
     min-height: 450px;
