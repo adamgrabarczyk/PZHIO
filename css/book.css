@@ -127,12 +127,13 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    /*right: -34%;*/
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 #content .book .pages-responsive .pages .page .caption p {
     padding-top: 20px;
-    color: black;
+    color: #801F2B;
     text-shadow: 0 0 50px black;
     font-weight: bold;
     font-family: Kalam;
