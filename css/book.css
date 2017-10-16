@@ -11,6 +11,11 @@
 
 }
 
+.festiwal-book {
+    font-weight: bold;
+    color: #801F2B;
+    font-family: 'Oswald', sans-serif;
+}
 
 .prev, .next {
     color: #801F2B;
