@@ -21,6 +21,7 @@ padding-right: 0px;
 
 
 
+
 .sidebar-nav {
     padding: 9px 0;
 }
@@ -134,9 +135,39 @@ border-color:  rgba(104,66,30, 0.5);
 .oop
 {
     cursor: pointer;
-    max-width: 8.4%;
-    padding: 10px;
+    max-width: 150px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
+.links{
+    margin-right: -150px;
+    float: left;
+}
+
+.links h2 {
+    font-family: 'Play', sans-serif;
+    padding-bottom: 10px;
+    color: bisque;
+}
+
+.links ul li {
+    text-align: start;
+
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.medal {
+    height: 100px;
+}
+
+footer-icons {
+    margin-left: -100px;
+    margin-right: 50px;
 }
 
 .footer {
