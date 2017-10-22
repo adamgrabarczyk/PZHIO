@@ -189,6 +189,7 @@ border-color:  rgba(104,66,30, 0.5);
 
 .medal {
     height: 100px;
+    cursor: pointer;
 }
 
 .footer-icons {
