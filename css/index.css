@@ -141,8 +141,12 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 .links{
-    margin-right: -150px;
+    margin-right: -200px;
     float: left;
+}
+
+.links hr {
+    margin-top: -5px;
 }
 
 .links h2 {
@@ -152,20 +156,42 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 .links ul li {
+    padding-bottom: 5px;
     text-align: start;
+    list-style-type: none;
+    color: beige;
+    font-family: 'Play', sans-serif;
+}
 
+.links ul li a:hover {
+    color: #E2E0E1;
 }
 
 .links ul li a {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: bisque;
 }
+
+.link1 {
+    margin-right: 71px;
+}
+
+.link2 {
+    margin-right: 47px;
+}
+
+.link3 {
+    margin-right: 10px;
+}
+
 
 .medal {
     height: 100px;
 }
 
-footer-icons {
+.footer-icons {
     margin-left: -100px;
     margin-right: 50px;
 }
@@ -184,6 +210,7 @@ footer-icons {
     font-family: 'Play', sans-serif;
     margin-top: 2em;
     font-size: small;
+    padding-right: 100px;
 }
 .person-link {
 text-decoration: none;
