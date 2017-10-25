@@ -11,3 +11,31 @@ background-color: darksalmon;
    text-align: start;
 margin-left: 43%;
 }
+
+.tem-card {
+    text-align: center;
+}
+
+.tem-card h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.sisia {
+    background-color: white;
+}
+
+.sisia address p {
+    margin-left: 36%;
+
+}
+
+
+.misia {
+    /*background-color: white;*/
+}
+
+.misia address p {
+    margin-left: 36%;
+
+}
