@@ -23,6 +23,22 @@ margin-left: 43%;
 
 .sisia {
     background-color: white;
+    height: 400px;
+}
+
+.sisia .card .card-body address h2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.sisia1 .card .card-body address h2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.sisia1 {
+    background-color: lightblue;
+    height: 400px;
 }
 
 .sisia address p {
