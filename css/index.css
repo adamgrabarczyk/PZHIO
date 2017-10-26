@@ -187,8 +187,12 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 
+.spcial-oop {
+    width: 128px;
+}
+
 .medal {
-    height: 100px;
+    height: 80px;
     cursor: pointer;
 }
 
@@ -200,7 +204,7 @@ border-color:  rgba(104,66,30, 0.5);
 .footer {
 
     /*background: white;*/
-    padding: 10px 25px;
+    padding: 20px 25px;
     text-align: center;
 /*background: ;*/
   /*background-color: #CCCCCC;*/

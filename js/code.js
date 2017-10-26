@@ -2,7 +2,7 @@
 
 
 
-$(document).ready(function () {
+$changeLink = $(document).ready(function () {
 
     $('#content').load('content/index.html');
 
@@ -14,6 +14,25 @@ $('ul#nav li a').click(function () {
 
    return false;
 });
+
+});
+
+
+
+$(document).ready(function () {
+
+
+
+    $('.link-part').click(function () {
+
+
+
+        var pagePart = $(this).attr('href');
+
+        $('#content').load('content/' + pagePart + '.html');
+
+        return false;
+    });
 
 });
 

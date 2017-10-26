@@ -30,12 +30,20 @@ margin-left: 43%;
 
 }
 
-
-.misia {
-    /*background-color: white;*/
+.title-adres {
+    text-align: center;
+    width: 400px;
 }
 
 .misia address p {
     margin-left: 36%;
+
+}
+
+.spec {
+    margin-left: 5%;
+}
+
+.dyrygent {
 
 }
