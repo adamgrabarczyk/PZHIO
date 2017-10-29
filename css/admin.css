@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+
+.adminPanel {
+    
+    
+    text-align: center;
+    
+}
+
+.adminPanel form input {
+    
+    margin-top: 20px
+    
+}
+
+/*.login {
+    float: left;
+}*/

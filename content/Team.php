@@ -545,96 +545,96 @@
     </div>
 
 
-    <div class="table">
+    <!--<div class="table">-->
 
-        <h2>Responsive Table</h2>
-        <div class="table-wrapper">
-            <table class="fl-table">
-                <thead>
-                <tr>
-                    <th>Header 1</th>
-                    <th>Header 2</th>
-                    <th>Header 3</th>
-                    <th>Header 4</th>
-                    <th>Header 5</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                    <td>Content</td>
-                </tr>
-                <tbody>
-            </table>
-        </div>
+        <!--<h2>Responsive Table</h2>-->
+        <!--<div class="table-wrapper">-->
+            <!--<table class="fl-table">-->
+                <!--<thead>-->
+                <!--<tr>-->
+                    <!--<th>Header 1</th>-->
+                    <!--<th>Header 2</th>-->
+                    <!--<th>Header 3</th>-->
+                    <!--<th>Header 4</th>-->
+                    <!--<th>Header 5</th>-->
+                <!--</tr>-->
+                <!--</thead>-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<td>1</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>2</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>3</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>4</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>5</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>6</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>7</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>8</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>9</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>10</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                    <!--<td>Content</td>-->
+                <!--</tr>-->
+                <!--<tbody>-->
+            <!--</table>-->
+        <!--</div>-->
 
-    </div>
+    <!--</div>-->
 
 
 
@@ -643,35 +643,35 @@
     <div class="table2">
 
         <div class="container">
-            <h1>Responsive Table</h1>
+            <!--<h1>Responsive Table</h1>-->
             <table class="rwd-table">
                 <tbody>
                 <tr>
-                    <th>Supplier Code</th>
-                    <th>Supplier Name</th>
-                    <th>Invoice Number</th>
-                    <th>Invoice Date</th>
-                    <th>Due Date</th>
-                    <th>Net Amount</th>
+                    <th>Nazwa</th>
+                    <th>Dyrygent</th>
+                    <th>Dyrektor</th>
+                    <th>Siedziba</th>
+                    <th>Osoba kontaktowa</th>
+                    <th>kontakt</th>
                 </tr>
                 <tr>
                     <td data-th="Supplier Code">
-                        UPS5005
+                        I.Chór „Moderato” (mieszany)
                     </td>
                     <td data-th="Supplier Name">
-                        UPS
+                        -
                     </td>
                     <td data-th="Invoice Number">
-                        ASDF19218
+                        dyr.  Włodzimierz  Jarmołowicz
                     </td>
                     <td data-th="Invoice Date">
-                        06/25/2016
+                        Miejski Ośrodek Kultury 10-538 Olsztyn, ul. Dąbrowszczaków 3
                     </td>
                     <td data-th="Due Date">
-                        12/25/2016
+                        Jolanta Dąbrowska
                     </td>
                     <td data-th="Net Amount">
-                        $8,322.12
+                        kreolka2010@onet.pl
                     </td>
                 </tr>
                 <tr>

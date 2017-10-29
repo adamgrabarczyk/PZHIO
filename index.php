@@ -162,6 +162,8 @@
         <li><a target="_blank" class="link2" href="https://www.olsztyn24.com/news/30846-chorzyscinbspwmnbspo-pzchio-ruszyli-sladami-historii.html">www.olsztyn24.com</a> - śladami histori </li>
         <li><a target="_blank" class="link3" href="https://www.olsztyn24.com/news/30819-warmisko-mazurski-oddzial-pzchio-uczci-90-rocznice-hymnu-pastwowego.html">
             www.olsztyn24.com/pzhio</a> - rocznica hymnu RP</li>
+        
+        <li><a href="admin/LogIn.php">administrator</a></li>
     </ul>
 </div>
 

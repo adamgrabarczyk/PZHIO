@@ -4,13 +4,13 @@
 
 $changeLink = $(document).ready(function () {
 
-    $('#content').load('content/index.html');
+    $('#content').load('content/index.php');
 
 $('ul#nav li a').click(function () {
 
    var page = $(this).attr('href');
 
-   $('#content').load('content/' + page + '.html');
+   $('#content').load('content/' + page + '.php');
 
    return false;
 });
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
         var pagePart = $(this).attr('href');
 
-        $('#content').load('content/' + pagePart + '.html');
+        $('#content').load('content/' + pagePart + '.php');
 
         return false;
     });
