@@ -9,6 +9,7 @@
     <meta name="author" content="Adam Grabarczyk" />
     <meta name="robots" content="index, follow"/>
 
+
     <meta name="keywords" content="chór, orkiestra, Olsztyn, warmia, mazury, muzyka, instrumenty, zespół,
      PZCHIO, polski, związek, chórów, orkiestr, koncert, feliks, nowowiejski, Olsztynek, Olsztyński, festiwal"/>
 
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="css/Contact.css">
     <link rel="stylesheet" href="css/Festiwal.css">
     <link rel="stylesheet" href="css/partytury.css">
+    <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -163,7 +165,7 @@
         <li><a target="_blank" class="link3" href="https://www.olsztyn24.com/news/30819-warmisko-mazurski-oddzial-pzchio-uczci-90-rocznice-hymnu-pastwowego.html">
             www.olsztyn24.com/pzhio</a> - rocznica hymnu RP</li>
         
-        <li><a href="admin/LogIn.php">administrator</a></li>
+
     </ul>
 </div>
 
@@ -178,6 +180,11 @@
 
     <img src="images/zasluzony.gif"  class="medal" alt="" data-toggle="modal" data-target="#exampleModal2">
 
+    </div>
+
+    <div class="admin">
+        <hr>
+        <li><a href="admin/LogIn.php">Dla administratora</a></li>
     </div>
 
 

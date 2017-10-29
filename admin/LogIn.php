@@ -32,10 +32,12 @@ session_start();
         
         <?php
 
+
+
        $loginek = filter_input(INPUT_POST, 'login');
           $passwordek = filter_input(INPUT_POST, 'haslo');
           $action = filter_input(INPUT_GET, 'akcja');
-          
+
           if (isset($action) && $action == 'wyloguj') {
     $_SESSION['zalogowany'] = 0;
     session_destroy();
