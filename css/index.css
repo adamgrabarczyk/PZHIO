@@ -126,7 +126,37 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 
+.icon {
+    width:  41.333333%;
+    margin-top: 50px;
+}
 
+.footer .container {
+    width: 100%;
+}
+
+.admin-sec {
+    width: 23.37%;
+    margin-top: 50px;
+    margin-left: 30px;
+    /*margin-right: -172px;*/
+}
+
+.admin-sec a {
+    text-decoration: none;
+    color: #999999;
+    font-family: 'Play', sans-serif;
+
+}
+
+.admin-sec a:hover {
+    color: #e8e8e8;
+    transition: 0.3s;
+}
+
+.admin-sec hr {
+    padding-bottom: 20px;
+}
 
 .oop-img {
     max-width: 100%;
@@ -141,12 +171,20 @@ border-color:  rgba(104,66,30, 0.5);
 }
 
 .links{
-    margin-right: -200px;
-    float: left;
+
+    margin-left: -30px;
+    /*margin-right: 170px;*/
+
 }
+
+.links ul {
+    margin-left: -20px;
+}
+
 
 .links hr {
     margin-top: -5px;
+    /*width: 80%;*/
 }
 
 .links h2 {
@@ -213,18 +251,29 @@ border-color:  rgba(104,66,30, 0.5);
 }
 .footer-tag {
     font-family: 'Play', sans-serif;
-    margin-top: 2em;
+    /*margin-top: 6em;*/
     font-size: small;
-    padding-right: 100px;
+    /*padding-right: 100px;*/
 }
+
+.footer-tags {
+    font-family: 'Play', sans-serif;
+    margin-top: -20px;
+    font-size: small;
+    padding-right: -20px;
+}
+
+
 .person-link {
 text-decoration: none;
-    color: black;
+    color: #AA9785;
+    font-size: smaller;
+   /*padding-left: 55px;*/
 }
 
 .person-link:hover {
     text-decoration: none;
-    color: black;
+    color: #801F2B;
 }
 
 .person-link:focus {
@@ -289,14 +338,174 @@ text-decoration: none;
 
 
 
+@media screen and (max-width: 585px) {
+    .baner {
 
-@media screen and (max-width: 768px) {
+        background-size: 195%;
+
+    }
+
+}
+
+
+@media screen and (min-width: 586px) and (max-width: 768px) {
 
     .dropdown:hover .dropdown-menu {
         display: none;
     }
-}
+
 
 .dropdown-menu li:hover .sub-menu {
     visibility: hidden;
+
+}
+
+    .baner {
+
+        background-size: 115%;
+
+    }
+}
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+    .oop {
+        max-width: 120px;
+    }
+    .wbs {
+        max-width: 90px;
+    }
+
+    .spcial-oop {
+        max-width: 110px;
+
+    }
+
+    .medal{
+        height: 70px;
+    }
+
+    .footer-icons {
+        margin-left: -100px;
+        margin-right: 35px;
+        padding-top: 20px;
+    }
+
+    .baner {
+
+        background-size: 102%;
+
+    }
+
+}
+
+
+@media screen and (min-width:992px ) and (max-width: 1090px) {
+
+    .oop {
+        max-width: 120px;
+    }
+    .wbs {
+        max-width: 90px;
+    }
+
+    .spcial-oop {
+        max-width: 110px;
+    }
+
+    .medal{
+        height: 70px;
+    }
+
+    .footer-icons {
+        margin-left: -100px;
+        margin-right: 35px;
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 1091px) and (max-width: 1200px) {
+
+    .oop {
+        max-width: 120px;
+    }
+    .wbs {
+        max-width: 90px;
+    }
+
+    .spcial-oop {
+        max-width: 110px;
+    }
+
+    .medal{
+        height: 70px;
+    }
+
+    .footer-icons {
+        margin-left: -100px;
+        margin-right: 90px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+    border-color: inherit;
+}
+
+
+
+
+
+@media screen and (max-width:768px ) {
+
+    .navbar-default .navbar-nav>li>a {
+        font-family: 'Play', sans-serif;
+        color: #801F2B;
+        font-size: 1.2em;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+
+        color: #801F2B;
+        border-color: #FFE4C4;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+
+        color: #801F2B;
+        border-color: #FFE4C4;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        margin: 0.5px -15px;
+        background-color: #FFE4C4;
+    }
+
+}
+
+
+.navbar-default .navbar-toggle{
+    border-color: #7C4941;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+     background-color: inherit;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #efbcbc;
 }

@@ -72,6 +72,7 @@ padding: 30px;
 
 .mpaps h2 {
     padding: 20px;
+    font-family: 'Play', sans-serif;
 }
 
 .google-map {
@@ -101,3 +102,117 @@ padding: 30px;
     opacity: 0.8;
 
 }
+
+
+@media screen and (max-width:491px ) {
+
+.contact .oran {
+    margin-left: -40px;!important;
+
+
+}
+
+    .krs {
+        margin-right: 0px;
+        margin-left: 12px;
+    }
+
+    .krss {
+        margin-right: 50px;
+        margin-left: 52px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 525px){
+    .bank {
+        margin-right: 50px;
+        margin-left: 60px;
+    }
+
+    .bank1 {
+        /*margin-right: 50px;*/
+        margin-left: 105px;
+    }
+}
+
+@media screen and (min-width:492px) and (max-width: 598px) {
+
+    .contact .oran {
+        margin-left: -40px;!important;
+
+
+    }
+    .krs {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .krss {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width:768px ) {
+
+    .contact p {
+
+        margin-left: 2%;
+    }
+    .cont5 {
+        padding-right: 5px;
+    }
+
+    .cont6 {
+        padding-right: 1px;
+    }
+
+    .google-map {
+
+        height: 280px;
+    }
+
+}
+
+@media screen and (min-width:769px ) and (max-width: 991px) {
+
+    .google-map {
+
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .contact .oran {
+        margin-left: -40px;!important;
+    }
+
+    .cont5 {
+        padding-right: 5px;
+    }
+
+    .cont6 {
+        padding-right: 1px;
+    }
+
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+    .contact p {
+
+        margin-left: 5%;
+      }
+
+}
+
+

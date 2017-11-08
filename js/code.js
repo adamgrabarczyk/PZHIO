@@ -4,13 +4,13 @@
 
 $changeLink = $(document).ready(function () {
 
-    $('#content').load('content/index.php');
+    $('#content').load('content/index.html');
 
 $('ul#nav li a').click(function () {
 
    var page = $(this).attr('href');
 
-   $('#content').load('content/' + page + '.php');
+   $('#content').load('content/' + page + '.html');
 
    return false;
 });
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
         var pagePart = $(this).attr('href');
 
-        $('#content').load('content/' + pagePart + '.php');
+        $('#content').load('content/' + pagePart + '.html');
 
         return false;
     });
@@ -61,4 +61,4 @@ if ($('#back-to-top').length) {
             scrollTop: 0
         }, 700);
     });
-}
+}p
